@@ -14,18 +14,18 @@
           theme: {
             extend: {
               colors: {
-                primary: '#00C897',
+                primary: '#C84B31',
               }
             }
           }
         }
       </script>
-      <script>
+        <script>
           
-          function Open(){
-              document.querySelector('#mobile-menu').classList.toggle('hidden');
+            function Open(){
+                document.querySelector('#mobile-menu').classList.toggle('hidden');
             }
-            </script>
+        </script>
 
 </head>
 <body class="text-white">
@@ -33,10 +33,10 @@
 
         <div class="bg-gray-800 md:py-8 py-4 lg:px-24 px-4 flex justify-between sticky top-0  z-50 items-center">
             <div class="">
-                <a href="/home" class="flex items-center font-serif">
-                    <span class=" font-serif text-white text-xl">Nelson</span>
+                <a href="#hero" class="flex items-center font-serif">
+                    <span class=" font-mono text-white text-sm">Nelson</span>
                     <span class="text-primary text-4xl -mt-3 font-bold flex items-center">.</span>
-                    <span class="font-serif text-white text-xl">Mathebeng</span>
+                    <span class="font-mono text-white text-sm">Mathebeng</span>
                 </a>
             </div>
 
@@ -92,7 +92,7 @@
 
     
         <!-- Hero section -->
-        <section class="lg:h-screen flex ">
+        <section id="hero" class="lg:h-screen h-full flex ">
     
             <div class="flex flex-col lg:py-20 space-y-6 items-center md:pt-12 lg:pt-36 lg:pl-20 md:pl-8 bg-gray-800 hidden md:flex">
                 <a href="https://web.facebook.com/mathebeng.mathebeng">
@@ -127,7 +127,7 @@
     
         
     
-            <div class="w-full lg:h-full bg-gray-800 flex flex-col lg:space-y-6 space-y-4 lg:py-16 lg:px-28 md:px-12 py-4 px-6 ">
+            <div class="w-full h-full relative bg-gray-800 flex flex-col lg:space-y-8 space-y-8 lg:py-16 lg:px-28 md:px-12 py-16 px-6 ">
                 <span class="text-primary font-mono">Hi! my name is</span>
                 <span class="lg:text-5xl font-extrabold text-2xl">Nelson Mathebeng.</span>
                 <span class="lg:text-5xl md:text-4xl text-2xl font-extrabold text-gray-300">I build full stack websites for businesses.</span>
@@ -156,12 +156,9 @@
             <div class="flex justify-center items-center py-16 ">
                 
                 <div class=" w-full px-4 flex flex-col space-y-4">
-                    <span class=" font-extrabold lg:text-4xl text-2xl">Hi There</span>
-                    <p class="tracking-wider lg:text-lg text-sm">I am Nelson Mathebeng, I am a full stack web developer with over 5 years experience in the field and I believe I can deliver the best results on your project. Not only that, but I also have confidence that I will deliver within time frame that we will agree on. <br> <br>
-                        
-                        My inspiration in life has always been the believe that everything i see around me was build by men who were no smarter than i am. All we need to achieve our greatness is a imagination and believe that we can achieve, the a plan and working on that plan every single day. </p>
-                        
                     
+                    <p class="tracking-wider lg:text-lg text-sm">I am a full stack web developer with over 5 years experience in the field and I believe I can deliver the best results on your project. Not only that, but I also have confidence that I will deliver within time frame that we will agree on. <br> <br>
+                   
                     <div class="grid grid-cols-2 gap-x-14 gap-y-4">
                         <div>
                             <span class="text-primary font-bold lg:text-lg text-md">Name:</span> <br>
@@ -189,7 +186,7 @@
     
         <!-- services -->
         <section id="services" class=" lg:py-16 py-6 w-full bg-gray-800">
-            <div class="w-full flex flex-col lg:space-y-6 space-y-3 lg:px-56 px-4">
+            <div class="w-full flex flex-col lg:space-y-8 space-y-8 lg:px-56 px-4">
     
                 <span class="flex justify-center md:text-2xl text-xl text-primary">Services</span>
                 <span class="flex justify-center md:text-3xl text-2xl font-extrabold">My Services</span>
@@ -202,7 +199,7 @@
     
             
     
-            <div class="lg:grid lg:grid-cols-3 lg:gap-y-4 lg:gap-x-4 lg:px-20 lg:py-8 grid grid-cols-1 gap-y-4 py-4 px-6">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-y-4 lg:gap-x-8 lg:px-20 lg:py-8 grid grid-cols-1 gap-y-8 py-4 px-6">
     
                 <div class="flex flex-col space-y-4 bg-gray-900 py-10 px-6 rounded-lg hover:bg-primary hover:bg-opacity-50 transition duration-300 ease-in">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github text-primary" viewBox="0 0 16 16">
@@ -255,7 +252,7 @@
     
     
         <!-- skills -->
-        <section id="skills" class=" w-full bg-gray-900 lg:flex-row justify-center lg:space-x-12 lg:px-32 lg:py-32 py-12 px-6 flex flex-col space-y-6 ">
+        <section id="skills" class=" w-full bg-gray-900 lg:flex-row justify-center lg:space-x-12 lg:px-32 lg:py-32 py-12 px-6 flex flex-col space-y-10 ">
             <div class=" w-full flex flex-col space-y-6">
                 <span class="text-primary lg:text-lg text-md font-bold">I'M EXPERT ON</span> 
                 <span class="lg:text-4xl text-2xl font-extrabold">Let's work together</span>
@@ -265,20 +262,37 @@
                 <a class="w-44 flex items-center justify-center font-mono py-3 px-5 bg-transparent hover:bg-primary transition duration-300 ease-in rounded-lg border border-primary" href="https://api.whatsapp.com/send?phone=+26656143109">Hire Me Now</a>
             </div>
     
-            <div class=" w-full flex flex-col space-y-4 lg:mt-6">
-    
-                <div class="lg:flex-row lg:space-x-4 flex flex-col space-y-4 items-center">
-    
-                    <img class="lg:w-56 h-36" src="img/23-237381_java-html-language-logo-png-transparent-png.png" >
-                    <img class="lg:w-56 h-36" src="img/download (1).png" >
+            <div class="skills-bar lg:w-3/5">
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="progress-line html"><span></span></div>
                 </div>
-                <div class="lg:flex-row lg:space-x-4 flex flex-col space-y-4">
-    
-                    <img class="lg:w-56 h-36" src="img/download (2).png" >
-                    <img class="lg:w-56 h-36" src="img/download.png" >
+                <div class="bar">
+                    <div class="info">
+                        <span>Tailwindcss</span>
+                    </div>
+                    <div class="progress-line tailwindcss"><span></span></div>
                 </div>
-    
-               
+                <div class="bar">
+                    <div class="info">
+                        <span>Vue.js</span>
+                    </div>
+                    <div class="progress-line vuejs"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Laravel 8</span>
+                    </div>
+                    <div class="progress-line laravel"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="progress-line MySQL"><span></span></div>
+                </div>
             </div>
         </section>
     
